@@ -10,10 +10,7 @@ const app = express();
 app.get('/', (req, res) => {
     res.send('🟢 API funcionando correctamente');
   });
-  
-
-
-
+    
 app.use(cors());
 app.use(express.json());
 
