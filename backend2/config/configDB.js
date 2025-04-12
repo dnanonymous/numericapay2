@@ -1,4 +1,4 @@
-// Añade esto en la PRIMERA LÍNEA del archivo:
+
 require('dotenv').config(); // Carga las variables de entorno
 
 const mongoose = require('mongoose');
